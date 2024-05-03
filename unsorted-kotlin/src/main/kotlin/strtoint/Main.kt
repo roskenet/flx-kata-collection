@@ -3,7 +3,9 @@ package strtoint
 import kotlin.test.assertEquals
 import org.junit.Test
 
-fun stringToNumber(str: String): Int = str.toInt()
+fun stringToNumber(str: String): Int {
+    return -1
+}
 
 class StringToNumberTest {
     @Test

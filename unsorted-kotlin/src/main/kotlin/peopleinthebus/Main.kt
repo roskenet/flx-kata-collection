@@ -4,16 +4,8 @@ import kotlin.test.assertEquals
 import kotlin.test.Test
 
 fun people(busStops: Array<Pair<Int, Int>>) : Int {
-    var persons = 0
-    busStops.forEach {
-        persons = persons + it.first - it.second
-    }
-    return persons
+    return -1
 }
-
-// Voted as best practice:
-// fun people(busStops: Array<Pair<Int, Int>>) = busStops.sumBy { it.first - it.second }
-
 
 class PeopleInTheBusTest {
     @Test

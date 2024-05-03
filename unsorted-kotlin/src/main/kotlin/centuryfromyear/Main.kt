@@ -3,8 +3,9 @@ package centuryfromyear
 import org.junit.Test
 import kotlin.test.assertEquals
 
-fun century(number: Int): Int = ((number - 1) / 100 ) + 1
-// or (number + 99 / 100)
+fun century(number: Int): Int {
+    return -1
+}
 
 class CenturyFromYearTest {
 
